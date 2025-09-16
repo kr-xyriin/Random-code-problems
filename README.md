@@ -16,4 +16,4 @@ Each file demonstrates a specific concept, logic, or algorithm implementation.
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
-   git clone -b c https://github.com/<your-username>/Random-code-problems.git
+   git clone https://github.com/kr-xyriin/Random-code-problems.git
