@@ -6,6 +6,7 @@ n! / r! * (n-r)!
 #include <stdio.h>
 
 int factorial(int num);
+void choice();
 
 int main() {
     int n, r;
@@ -18,6 +19,8 @@ int main() {
         comb=factorial(n)/(factorial(r)*factorial(n-r));
         printf("\n%.2f", comb);
     }
+    printf("\n\n");
+    choice();
 }
 
 int factorial(int num) {
@@ -26,4 +29,14 @@ int factorial(int num) {
         fact*=i;
     }
     return fact;
+}
+void choice() {
+    while (1) {
+        int ans;
+        printf("Do you want to calculate more? [1 : Yes / 0 : No]: ");
+        scanf("%d", &ans);
+        if (ans==1) {
+            main();
+        }
+    }
 }
