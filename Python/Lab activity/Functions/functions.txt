@@ -1,0 +1,4 @@
+types of arguements:
+1) default arguements
+2) positional arguements
+3) keyword arguements
