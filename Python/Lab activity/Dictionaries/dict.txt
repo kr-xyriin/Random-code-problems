@@ -1,0 +1,8 @@
+dictionaries are a collection of values used to store values or data like a map
+in form of keys and values
+
+characteristics:
+-> Mutable
+-> idexig has no meaning
+-> keys can't be duplicated/replaced
+-> keys can't be mutable items

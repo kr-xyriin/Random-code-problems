@@ -1,0 +1,8 @@
+Sets are unordered colletion of data
+
+characteristics:
+Unordered: Elements have no fixed position. You cannot rely on indexing like in lists or tuples.
+• 	No duplicates: Each element is unique. Adding a duplicate value has no effect.
+• 	Unindexed: Items cannot be accessed by index or key.
+• 	Mutable container: You can add or remove elements, but individual items (like strings or numbers) must be immutable themselves.
+• 	Efficient operations: Sets use hashing internally, making membership tests (), insertion, and deletion very fast compared to lists.
