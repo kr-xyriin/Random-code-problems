@@ -18,11 +18,19 @@ int main() {
     columns=rows;
     printf("\n\nPascal's Triangle: \n\n");
     for (int i=0; i<rows; i++) {
+        int first=1;
+
+        //spaces
         for (int k=rows-1; k>i; k--) {
             printf(" ");
         }
+
+        //main content
         for (int j=0; j<=i; j++) {
-            printf("%d ", comb(i, j));
+            //printf("%d ", comb(i, j));
+            // Second method
+            printf("%d ", first);
+            first=first*(i-j)/(j+1);
         }
         printf("\n");
     }
