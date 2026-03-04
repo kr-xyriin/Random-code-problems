@@ -13,7 +13,5 @@ int fact(int count) {
     if (count == 0) {
         return 1;
     }
-    int n=fact(count-1);
-    int fact=n*count;
-    return fact;
+    return count*fact(count-1);
 }
