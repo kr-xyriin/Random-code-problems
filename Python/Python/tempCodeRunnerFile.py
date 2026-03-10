@@ -1,0 +1,2 @@
+if fruit=='mango':
+    #     break
