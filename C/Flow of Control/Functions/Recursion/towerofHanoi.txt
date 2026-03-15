@@ -1,0 +1,17 @@
+Tower of Hanoi — The Idea
+You have n discs on peg S (source). Goal: move all to peg D (destination) using H (helper).
+The rule: never place a bigger disc on a smaller one.
+
+The trick: to move n discs from S→D, you —
+  ① Move top (n-1) discs out of the way: S→H (using D as helper)
+  ② Move the big bottom disc: S→D (just a printf)
+  ③ Move the (n-1) discs from helper back on top: H→D (using S as helper)
+
+Tower of Hanoi — The Idea
+You have n discs on peg S (source). Goal: move all to peg D (destination) using H (helper).
+The rule: never place a bigger disc on a smaller one.
+
+The trick: to move n discs from S→D, you —
+  ① Move top (n-1) discs out of the way: S→H (using D as helper)
+  ② Move the big bottom disc: S→D (just a printf)
+  ③ Move the (n-1) discs from helper back on top: H→D (using S as helper)
