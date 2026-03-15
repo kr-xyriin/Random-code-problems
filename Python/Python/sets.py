@@ -24,4 +24,7 @@ union - intersection
 print(set1^set2)
 print(set1.symmetric_difference(set2))
 print()
-
+print(set2)
+set2.remove(4)
+print()
+print(set2)

@@ -1,0 +1,2 @@
+Hi everyone 7 we are learning File 1/O using Java.
+I like programming in Java.
