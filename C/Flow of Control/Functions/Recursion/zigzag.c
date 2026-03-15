@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void zigzag(int n);
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    zigzag(num);
+    return 0;
+}
+
+void zigzag(int n) {
+    if (n==0) return;
+    printf("%d ", n);
+    zigzag(n-1);
+    printf("%d ", n);
+    zigzag(n-1);
+    printf("%d ", n);
+}
