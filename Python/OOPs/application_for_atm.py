@@ -1,11 +1,11 @@
 '''
 __init__  -> contructor: It forces the variables to declare and initialize by default before the object
 
-    whenever creating a new function or a method, it needs to be declared inside __init__ woith prefix 'self.'
+    -> whenever creating a new function or a method, it needs to be declared inside __init__ woith prefix 'self.'
 
-    whenever using a variable or a method/function from a contructor, it should always be used with the prefix 'self.'
+    -> whenever using a variable or a method/function from a contructor, it should always be used with the prefix 'self.'
 
-    whenever defining a function, it should always contain the attribute 'self'
+    -> whenever defining a function, it should always contain the attribute 'self'
 
 '''
 
