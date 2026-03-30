@@ -1,7 +1,7 @@
 '''
 __init__  -> contructor: It forces the variables to declare and initialize by default before the object
 
-    -> whenever creating a new function or a method, it needs to be declared inside __init__ woith prefix 'self.'
+    -> whenever creating a new function or a method, it needs to be declared inside __init__ with prefix 'self.'
 
     -> whenever using a variable or a method/function from a contructor, it should always be used with the prefix 'self.'
 
@@ -14,10 +14,6 @@ class atm():
         self.pin=0 
         self.balance=0
         self.menu()
-        self.create_pin()
-        self.deposit()
-        self.withdraw()
-        self.bank_balance()
     def menu(self): # method / function
         user_input=input('''
         Hello, how would you like to proceed?
