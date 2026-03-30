@@ -1,0 +1,3 @@
+Private attributes & methods are meat to be used only within the class and are not accessible outside the class
+they start with doubel underscore
+__example() | __example
