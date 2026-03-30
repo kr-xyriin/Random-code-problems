@@ -1,3 +1,2 @@
 # Class
-It is a blueprint for creating objects
-
+It is a blueprint for creating objects  
