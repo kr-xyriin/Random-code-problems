@@ -11,9 +11,10 @@ __init__  -> contructor: It forces the variables to declare and initialize by de
 
 class atm():
     def __init__(self):
-        self.pin=0 
+        self.__pin=0 
         self.balance=0
         self.menu()
+
     def menu(self): # method / function
         user_input=input('''
         Hello, how would you like to proceed?
@@ -41,7 +42,7 @@ class atm():
     def create_pin(self):
         self.pin=input("Enter your pin [Minimum 4 digits]: ")
         if len(self.pin)<4:
-            print("Pin i s too short!!")
+            print("Pin is too short!!")
             self.create_pin()
         else:
             print("Pin set successfully\n")

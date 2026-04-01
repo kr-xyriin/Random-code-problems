@@ -1,3 +1,10 @@
 Private attributes & methods are meat to be used only within the class and are not accessible outside the class
 they start with doubel underscore
 __example() | __example
+
+In python
+nothing can be completely Private
+when an attribute is hidden using double underscore then the refernce is python's memory creates a new attribute with _<class_name>__<attribute_name>
+
+for example 
+self.__pin becomes _Atm__pin
