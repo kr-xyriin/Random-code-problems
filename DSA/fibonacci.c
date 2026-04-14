@@ -10,7 +10,7 @@ int main() {
 }
 
 void fibonacci(int num1, int num2, int count) {
-    if (count<=19) {
+    if (count<20) {
         int fibo=num1+num2;
         printf("%d\n", fibo);
         num1=num2;
