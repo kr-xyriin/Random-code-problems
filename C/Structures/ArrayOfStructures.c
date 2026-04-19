@@ -28,6 +28,7 @@ int main() {
         printf("Enter tier: ");
         scanf("%c", &arr[i].tier);
     }
+    
     printf("Printing the array....\n");
     for (int i=0; i<3; i++) {
         printf("Pokemon %d:\n", i+1);
