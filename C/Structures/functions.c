@@ -6,6 +6,7 @@ typedef struct pokemon{
     int speed;
     char name[50];
     int attack;
+    char tier;
 } pokemon;
 
 void func(pokemon p) {
