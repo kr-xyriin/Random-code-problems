@@ -1,0 +1,1 @@
+A class variable is like a global variable variable within the class but with the scope outside the contructor and can be accessed by `<class_name>.<variable_name>`
