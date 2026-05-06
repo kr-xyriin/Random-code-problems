@@ -5,7 +5,8 @@ int main() {
     int i, n;
     printf("Number of integers: ");
     scanf("%d", &n);
-    int *ptr=(int*)malloc(n*sizeof(*ptr));
+    int *ptr=NULL;
+    ptr=malloc(n*sizeof(*ptr));
     if (ptr==NULL) {
         printf("Memory not available...\n");
         exit(1);
