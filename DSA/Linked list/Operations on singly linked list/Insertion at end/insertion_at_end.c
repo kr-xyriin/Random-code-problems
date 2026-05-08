@@ -29,11 +29,10 @@ void display(node *head) {
     return;
 }
 
-void insert_at_end(node *tail, int data) {
+node* insert_at_end(node *tail, int data) {
     node *current=new(data);
     tail->next=current;
-    tail=current;
-    return;
+    return current;
 }
 
 int main() {
@@ -58,29 +57,16 @@ int main() {
     display(head);
 
     // Insertion
-    int data;
-    printf("\nEnter data to be inserted: ");
-    scanf("%d", &data);
-    insert_at_end(tail, data);
-    /*
-    node *head=NULL;
-    head=malloc(sizeof(node));
-    head->data=45;
-    head->next=NULL;
-
-    node *current=NULL;
-
-    current=malloc(sizeof(node));
-    current->data=98;
-    current->next=NULL;
-    head->next=current;
-
-    current=malloc(sizeof(node));
-    current->data=3;
-    current->next=NULL;
-    head->next->next=current;
-    display(head);
-    */
+    printf("\n");
+    printf("Enter no. of elements to be inserted: ");
+    scanf("%d", &n);
+    for (int i=0; i<n; i++) {
+        int data;
+        printf("Enter data to be inserted: ");
+        scanf("%d", &data);
+        tail=insert_at_end(tail, data);
+    }
+    printf("\n");
     display(head);
     return 0;
 }
