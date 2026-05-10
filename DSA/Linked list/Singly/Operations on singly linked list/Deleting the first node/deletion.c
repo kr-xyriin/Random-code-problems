@@ -32,6 +32,7 @@ node *delete_first(node *head) {
     node *ptr=head;
     head=head->next;
     free(ptr);
+    ptr=NULL;
     return head;
 }
 
