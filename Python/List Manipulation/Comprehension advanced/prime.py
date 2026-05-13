@@ -1,0 +1,1 @@
+print([a for a in range(2,101) if all(a%c!=0 for c in range(2,int(a/2)+1))])

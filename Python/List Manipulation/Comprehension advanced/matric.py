@@ -1,0 +1,1 @@
+print([[b for b in range(1,4)] for a in range(3)])
