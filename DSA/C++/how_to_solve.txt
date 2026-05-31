@@ -1,0 +1,4 @@
+1) Understand
+2) Input
+3) Solution / Pseudocode
+4) Code
